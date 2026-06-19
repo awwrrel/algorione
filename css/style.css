@@ -1,0 +1,119 @@
+/* Reset */
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Verdana, sans-serif;
+
+}
+
+/* Body */
+body{
+    background-color:#f5f7fa;
+}
+
+/* Navbar */
+nav{
+    background:#0A2342;
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 8%;
+
+    position:sticky;
+    top:0;
+
+    z-index:1000;
+}
+
+nav h2{
+    color:#F4C430;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#F4C430;
+}
+
+/* Hero */
+.hero{
+
+    height:90vh;
+
+    background:
+    linear-gradient(
+    135deg,
+    rgba(10,35,66,0.85),
+    rgba(44,116,179,0.75)
+    ),
+    url("teknikunsrat.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    color:white;
+
+}
+
+.hero h1{
+    font-size:60px;
+    font-weight:bold;
+
+}
+
+.hero h2{
+    color:#F4C430;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+/* Tombol */
+.hero a{
+    text-decoration:none;
+
+    background:#F4C430;
+    color:#0A2342;
+
+    padding:15px 35px;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+}
+
+.hero a:hover{
+    transform:translateY(-3px);
+
+    background:white;
+}
